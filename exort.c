@@ -9,8 +9,8 @@
 
 
 /*	
- *	Clean Code verzió: Bogacsovics Gergő
- *	Tutor: Vincze Tamás Zoltán
+ *	Clean Code verzió: Bodnar Peter
+ *	Tutor: Vincze Tamás Zoltán, Bogacsovics Gergő
  *
  */
 
@@ -98,7 +98,8 @@ main (void)
     titkos[p - titkos + i] = '\0';
 
   // osszes kulcs eloallitasa
-  /* Ezt for ciklusokkal érük el. Így minden lehetséges kulcs előáll, azokat "csak" ki kell próbálni. */
+  /* Ezt for ciklusokkal érük el. Így minden lehetséges kulcs előáll, azokat "csak" ki kell próbálni. Egy tombben a karakterek listaja amiket figyelembe vesz a kod.*/
+
 char tomb[14]= {'0','1','2','3','4','5','6','7','8','9','+','-','/','*'};
 
   // osszes kulcs eloallitasa
