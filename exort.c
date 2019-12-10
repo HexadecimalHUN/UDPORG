@@ -116,7 +116,7 @@ int tomb[]= {'0','1','2','3','4','5','6','7','8','9','+','-','/','*'};
 		    if (exor_tores (kulcs, KULCS_MERET, titkos, p - titkos))
 		      printf
 			("Kulcs: [%c%c%c%c]\nTiszta szoveg: [%s]\n",
-			 tomb[ii], tomb[ji], tomb[ki], tomb[li], titkos;
+			 tomb[ii], tomb[ji], tomb[ki], tomb[li], titkos);
 
 		 // ujra EXOR-ozunk, igy nem kell egy masodik buffer  
 		    exor (kulcs, KULCS_MERET, titkos, p - titkos);
